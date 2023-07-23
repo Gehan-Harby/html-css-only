@@ -1,0 +1,117 @@
+body{
+ margin: 0;
+ margin-top: 0;
+}
+/*The Header*/
+
+ .big-header{
+   margin-top: 0;
+   background-image: url(header.jpeg);  
+   background-repeat: no-repeat; 
+   padding: 280px;
+   background-size: 100%;
+
+ }
+
+/*navbar*/
+.navbar {
+  background-color: black;
+  width: 100%; 
+  font-weight: bold ;
+  overflow: hidden;
+  
+}
+
+.navbar a.logo{
+  background-image: url(logohead2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0.1px solid black;
+  float: left;
+  display:block;
+  margin-right: 0;
+  padding: 25px;
+}
+
+  .navbar a {
+    float: left;
+    display: block;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration:none;
+  }
+ .navbar a.right{
+   float:right;
+   margin-right: 0;
+ }
+  .navbar a.active {
+    background-color: rgb(239, 247, 246);
+    color: rgb(39, 36, 185);
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(163, 241, 238);
+    color: rgb(39, 36, 185);
+  }
+  
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other   
+instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+/*The Content*/
+.st{
+  float: left;
+  width: 50%;
+  flex: 50%;
+    /* 10px*/
+ }
+
+.nd{
+  float: right;
+  width: 50%; 
+  flex: 50%;		
+  margin-top: 0; /*10px*/
+ }
+.bigdiv{
+  text-align: justify;
+  display:flex;
+  clear: both;
+  box-sizing: border-box;
+}
+
+.BIGbigdiv{
+border:thick;
+padding:2.8%;/*40px */
+/* border-left:outset #121312;
+border-right:inset #0d0e0d; */
+
+text-align:justify;
+font-size: 140% ; 
+}
+
+/*The Footer*/
+.foo{
+  float: left;
+  width: 100%;
+  bottom:0;
+  display: block;
+  background-color: black;
+  color:white;
+}
+.div_sec1,.div_sec2,.div-sec3{
+  float: left;
+  width: 30%;
+  padding:50px;
+ 
+}
+.div-sec3{
+  margin-top: 5%;
+  border-right:solid white ;
+}

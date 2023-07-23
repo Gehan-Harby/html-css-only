@@ -1,0 +1,87 @@
+.navbar a {
+  float: left;
+  display: block;
+  margin-right: 5%;
+  margin-bottom: 0;
+  color: black;
+  color: white;
+  background-color:black ;
+  text-align: center;
+  /* padding: 0px px; */
+  text-decoration:none;
+}
+
+.navbar a.active {
+  background-color: rgb(194, 194, 194);
+  color: rgb(39, 36, 185);
+}
+
+.navbar a:hover {
+  background-color: rgb(204, 201, 201);
+  color: rgb(39, 36, 185);
+}
+
+input [type = text],input [type= e-mail],input[type=number],input[type = date],input[type= tel]{
+  width: 35%;
+  padding-left:7px;
+  padding-right:7px ;
+  border: 2px solid black;
+  background-color:white;
+  color: black;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+label{
+  padding: 12px 12px 12px 0;
+  border: 2px solid black;
+  display:table-row;
+}
+#back1{
+  background-image: url(form-background.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment:fixed ;
+}
+
+.parent{
+  background-color: rgb(217, 232, 243);
+width: 70%; 
+height: 70%;
+margin-left: 15%;
+margin-top: 3%;
+margin-bottom: 7%;
+font-size:16px;
+font:normal bold ;
+color:solid black;
+line-height: normal;
+
+}
+.child{
+  margin-top: 1%;
+  margin-left: 1%;
+  padding-top:0.5%;
+  
+}
+input[type=reset] {
+  background-color: #0c3963;
+  color:  white;
+  padding: 12px 20px;
+  margin-right:2px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  width: 20%;
+}
+input[type=submit] {
+  background-color: #0c3963;
+  color:  white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+  width: 20%;
+}
+

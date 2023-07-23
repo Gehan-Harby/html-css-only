@@ -1,0 +1,154 @@
+ 
+
+
+/*navbar*/
+.navbar {
+  background-color: black;
+  width: 100%; 
+  font-weight: bold ;
+  overflow: hidden;
+  
+}
+
+.navbar a.logo{
+  background-image: url(logohead2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0.1px solid black;
+  float: left;
+  display:block;
+  margin-right: 0;
+  padding: 25px;
+}
+
+  .navbar a {
+    float: left;
+    display: block;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration:none;
+  }
+ .navbar a.right{
+   float:right;
+   margin-right: 0;
+ }
+  .navbar a.active {
+    background-color: rgb(239, 247, 246);
+    color: rgb(39, 36, 185);
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(163, 241, 238);
+    color: rgb(39, 36, 185);
+  }
+  
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other   
+instead of next to each other */
+@media screen and (max-width: 400px) {
+   .navbar a {
+     float: none;
+     width: 100%;
+   }
+ }
+
+
+/* gehan css */
+#g1{
+   color:red;
+}
+#g2,#g3,#g4,#g6,#g7,#g8,#g11{
+   color: blue;
+}
+#g5,#g9,#g12,#g13,#g14,#g15,#g16,#g17,#g18,#g19{
+   color: rgb(187, 11, 46);
+}
+.one{
+   text-align: justify;
+}
+/*background*/
+body{
+   margin: 0;
+   background-color:rgba(231, 255, 255, 0.972);
+   overflow: hidden;
+}
+.maindiv{
+   box-sizing: border-box;
+   width: 100%;
+   margin-top: 0;
+   background-color:rgba(191, 253, 253, 0.972);
+   background-size:cover ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   opacity:inherit;
+   
+}
+
+ div.one {
+   float:left;
+   width: 31%;
+   height: 605px;
+   overflow-y:scroll;
+   text-align:justify;
+   background-color:rgba(231, 255, 255, 0.972);
+   padding: 10px;
+}
+div.c1 {
+   float:left;
+   width: 31%;
+   height: 620px;
+   overflow-y:scroll;
+   text-align:justify;
+   background-color:rgba(231, 255, 255, 0.972);
+   padding: 10px;
+} 
+div.mydiv {
+   float:left;
+   width: 32%;
+   height: 623px;
+   overflow-y: scroll;
+   text-align:justify;
+   background-color:rgba(231, 255, 255, 0.972);
+   padding: 10px;
+}   
+
+/* horria css */
+:root{
+    --color :darkblue;
+    --careColor: red;
+}
+ .c1{
+    text-align: justify;
+ }
+  #p1 {
+     color: var(--careColor);
+  }
+  #p2{
+      color:var(--color);
+  }
+  #p3{
+    color: var(--careColor);
+}
+  #p4{
+    color:var(--color);
+ }
+ #p5{
+    color:var(--color);
+ }
+#p6{
+   color:blue;
+}
+#p7{
+    color:darkblue;
+    
+ } 
+
+/*salma css*/
+.mydiv{
+    text-align: justify;
+    font-style: normal;
+ }
+
+ 
